@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class char extends StatelessWidget {
-  const char({super.key});
+class charlist extends StatelessWidget {
+  const charlist({super.key});
 
   Widget mycard(){
     return  Container(

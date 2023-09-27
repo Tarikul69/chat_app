@@ -1,4 +1,4 @@
-import 'package:chat_app/chat.dart';
+import 'package:chat_app/chatlist.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text("Chat App"),
         ),
-        body: char(),
+        body: charlist(),
       ),
     );
   }
