@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class char extends StatelessWidget {
-  const char({super.key});
+class chat extends StatelessWidget {
+  const chat({super.key});
 
   Widget mycard(){
     return  Container(
